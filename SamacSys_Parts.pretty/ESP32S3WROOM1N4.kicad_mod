@@ -6,7 +6,7 @@
 	(descr "ESP32-S3-WROOM-1-N4-4")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 3.5 2.5 90)
 		(layer "F.SilkS")
 		(uuid "c98223f9-33b9-419d-8674-30c1b2517418")
 		(effects
@@ -551,7 +551,7 @@
 		(uuid "4860999f-53b6-45f5-ab3e-f7645e8ae5be")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../samacParts/SamacSys_Parts.3dshapes/ESP32-S3-WROOM-1-N4.stp"
+	(model "${KIPRJMOD}/../samacsysKiCad/SamacSys_Parts.3dshapes/ESP32-S3-WROOM-1-N4.stp"
 		(offset
 			(xyz 0 -0.2499999962 0)
 		)

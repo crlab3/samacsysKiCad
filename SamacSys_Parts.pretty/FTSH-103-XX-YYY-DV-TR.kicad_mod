@@ -212,7 +212,7 @@
 		(uuid "3cb11e7a-4a42-4481-a283-ccf856678ac6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../samacParts/SamacSys_Parts.3dshapes/FTSH-103-01-S-DV-TR.stp"
+	(model "${KIPRJMOD}/../samacsysKiCad/SamacSys_Parts.3dshapes/FTSH-103-01-S-DV-TR.stp"
 		(offset
 			(xyz 0 -0.2300000007 0.4099999903)
 		)

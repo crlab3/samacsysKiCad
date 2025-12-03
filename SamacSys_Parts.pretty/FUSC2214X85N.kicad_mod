@@ -6,7 +6,7 @@
 	(descr "MF-PSMF020X")
 	(tags "Fuse")
 	(property "Reference" "F**"
-		(at 0 0 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
 		(uuid "924da528-a32c-4b34-a991-8136da42a849")
 		(effects
@@ -167,7 +167,7 @@
 		(uuid "12503cca-db08-4c8c-8ab5-f0cf5b73fa3f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../samacParts/SamacSys_Parts.3dshapesMF-PSMF020X-2.stp"
+	(model "${KIPRJMOD}/../samacsysKiCad/SamacSys_Parts.3dshapes/MF-PSMF020X-2.stp"
 		(offset
 			(xyz 0 0 0)
 		)

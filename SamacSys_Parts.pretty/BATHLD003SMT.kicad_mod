@@ -480,7 +480,7 @@
 		(uuid "59f7bf7f-308c-4d14-8abc-79862e7d6117")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../samacParts/SamacSys_Parts.3dshapes/BAT-HLD-003-SMT.stp"
+	(model "${KIPRJMOD}/../samacsysKiCad/SamacSys_Parts.3dshapes/BAT-HLD-003-SMT.stp"
 		(offset
 			(xyz -0.06999999925 -5.320000092 2.049999922)
 		)
