@@ -12,4 +12,10 @@ K
 F https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP BAT-HLD-003-SMT
+D Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=C-BAT-HLD-003-SMT&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-003-SMT
+$ENDCMP
+#
 #End Doc Library
