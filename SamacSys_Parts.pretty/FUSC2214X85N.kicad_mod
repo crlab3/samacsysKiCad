@@ -1,30 +1,181 @@
-(module "FUSC2214X85N" (layer F.Cu)
-  (descr "MF-PSMF020X")
-  (tags "Fuse")
-  (attr smd)
-  (fp_text reference F** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "FUSC2214X85N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.76 -1.01) (end 1.76 -1.01) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.76 -1.01) (end 1.76 1.01) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.76 1.01) (end -1.76 1.01) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.76 1.01) (end -1.76 -1.01) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.075 -0.675) (end 1.075 -0.675) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.075 -0.675) (end 1.075 0.675) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.075 0.675) (end -1.075 0.675) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.075 0.675) (end -1.075 -0.675) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.575) (end 0 0.575) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.15 0 0) (size 0.72 1.52) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.15 0 0) (size 0.72 1.52) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\Catch22\\Documents\\Github\\samacsysKiCad\\SamacSys_Parts.3dshapes\\MF-PSMF020X-2.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "FUSC2214X85N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MF-PSMF020X")
+	(tags "Fuse")
+	(property "Reference" "F**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "924da528-a32c-4b34-a991-8136da42a849")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FUSC2214X85N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "42807fbd-5b53-4fb2-89d0-74e39d16e80e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8b96c58-2ba6-4a2f-ba1e-d5f29f2f68a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe513823-8836-4019-86b3-524eea6f19f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.575)
+		(end 0 0.575)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d80b90a-2d42-47a8-99b3-b3b5d3e6a54a")
+	)
+	(fp_line
+		(start -1.76 -1.01)
+		(end 1.76 -1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dbcefc2-c9f8-487b-98fb-36281701bedd")
+	)
+	(fp_line
+		(start -1.76 1.01)
+		(end -1.76 -1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88f314a4-28ec-4c8f-8ba2-33ac0fff1f47")
+	)
+	(fp_line
+		(start 1.76 -1.01)
+		(end 1.76 1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d004944-6b41-4420-9017-a14dc6ce6c04")
+	)
+	(fp_line
+		(start 1.76 1.01)
+		(end -1.76 1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37b517d2-af8d-43f0-ab24-990af965eaf1")
+	)
+	(fp_line
+		(start -1.075 -0.675)
+		(end 1.075 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff16aa3e-e79b-4f1f-8a16-d9e50ddc4cf7")
+	)
+	(fp_line
+		(start -1.075 0.675)
+		(end -1.075 -0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d3f606d-6a37-4002-9123-1441a99bd177")
+	)
+	(fp_line
+		(start 1.075 -0.675)
+		(end 1.075 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06c9e920-879c-4b17-92f0-f15bd3bbe045")
+	)
+	(fp_line
+		(start 1.075 0.675)
+		(end -1.075 0.675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a0684e4-84e3-49ae-acc4-8a8c13104eb8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9a86950f-5d87-4933-89fb-4eb40dcf7798")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0)
+		(size 0.72 1.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f8de0f1-d2f7-4943-9c6a-8b2d87e5819f")
+	)
+	(pad "2" smd rect
+		(at 1.15 0)
+		(size 0.72 1.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12503cca-db08-4c8c-8ab5-f0cf5b73fa3f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../samacParts/SamacSys_Parts.3dshapesMF-PSMF020X-2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
