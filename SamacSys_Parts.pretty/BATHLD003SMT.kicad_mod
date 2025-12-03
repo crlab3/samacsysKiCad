@@ -6,7 +6,7 @@
 	(descr "BAT-HLD-003-SMT-1")
 	(tags "Hardware")
 	(property "Reference" "H**"
-		(at 0 0.008 0)
+		(at 0 -12.5 0)
 		(layer "F.SilkS")
 		(uuid "25334321-736f-4fde-880f-55fa20c4ffab")
 		(effects
