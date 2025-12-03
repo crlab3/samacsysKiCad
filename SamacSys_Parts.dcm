@@ -18,4 +18,16 @@ K
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=C-BAT-HLD-003-SMT&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-003-SMT
 $ENDCMP
 #
+$CMP MF-PSMF020X-2
+D Bourns 0.2A Surface Mount Resettable Fuse, 9V
+K
+F https://www.bourns.com/pdfs/mfpsmf.pdf
+$ENDCMP
+#
+$CMP FTSH-103-01-S-DV-TR
+D 6 Position, High Reliability Header Strips, 0.050&quot; pitch
+K
+F http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf
+$ENDCMP
+#
 #End Doc Library

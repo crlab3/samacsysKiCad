@@ -116,4 +116,49 @@ P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model MF-PSMF020X-2
+#/691973/570061/2.50/2/3/Fuse
+DEF MF-PSMF020X-2 F 0 30 Y Y 1 F N
+F0 "F" 550 250 50 H V L CNN
+F1 "MF-PSMF020X-2" 550 150 50 H V L CNN
+F2 "FUSC2214X85N" 550 50 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/mfpsmf.pdf" 550 -50 50 H I L CNN
+F4 "Bourns 0.2A Surface Mount Resettable Fuse, 9V" 550 -150 50 H I L CNN "Description"
+F5 "0.85" 550 -250 50 H I L CNN "Height"
+F6 "652-MF-PSMF020X-2" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/MF-PSMF020X-2?qs=B2dI1vFk2x%2FnZ%252B%252BDoGvxDQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MF-PSMF020X-2" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+P 2 0 1 6 200 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FTSH-103-01-S-DV-TR
+#/11307213/570061/2.50/6/2/Connector
+DEF FTSH-103-01-S-DV-TR J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "FTSH-103-01-S-DV-TR" 650 200 50 H V L CNN
+F2 "FTSH-103-XX-YYY-DV-TR" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf" 650 0 50 H I L CNN
+F4 "6 Position, High Reliability Header Strips, 0.050&quot; pitch" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "200-FTSH10301SDVTR" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-103-01-S-DV-TR?qs=Cqqh%252BS766wm4bsLlv5ihTQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FTSH-103-01-S-DV-TR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 800 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library
